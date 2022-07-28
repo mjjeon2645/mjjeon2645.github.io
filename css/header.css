@@ -1,13 +1,13 @@
-header div {
-    border-bottom: 1px solid #000;
-    padding-top: 26px;
-    padding-bottom: 26px;
-    padding-right: 13.3rem;
-    padding-left: 13.3rem;
+header {
     display: flex;
+    border-bottom: 1px solid #000;
+    height: 4vw;
+}
+
+header div {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-content: center;
-    height: 74px;
 }
 
 header h1 {
@@ -36,13 +36,18 @@ header .menus li a:not(.contact a):active {
     color: #2FBBA0;
 }
 
+header .menus {
+    align-items: center;
+}
+
 header .contact {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    line-height: 30px;
     padding-inline: 20px;
     background-color: #000;
     border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contact a {
