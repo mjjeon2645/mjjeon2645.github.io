@@ -1,0 +1,42 @@
+.experience-title {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 2em;
+}
+
+.experience-title h2 {
+    font-size: 2em;
+    display: inline-block;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+}
+
+.experience-title span {
+    padding-left: .5em;
+    color: #666666;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: .8em;
+}
+
+.row {
+   height: 5.5vh;
+   border-bottom: 1px dashed #DDDDDD;
+   padding-top: 2.2vh;
+}
+
+.row .title {
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 1vh;
+    width: 20vh;
+}
+
+.row .detail {
+    display: inline-block;
+    color: #666666;
+    width: 45vh;
+}
+
+.row .period {
+    display: inline-block;
+    color: #666666;
+}
