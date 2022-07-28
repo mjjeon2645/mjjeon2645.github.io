@@ -1,0 +1,103 @@
+#projects {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h2 {
+    display: inline-block;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.gray-section {
+    background-color: #F8F8F8;
+    padding-top: 13vh;
+    padding-bottom: 25vh;
+    width: 1920px;
+    position: absolute;
+    left: 0em;
+    z-index: -1;
+}
+
+.projects-titles {
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+
+#projects .projects-titles span {
+    padding-left: .5em;
+    color: #666666;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: .8em;
+}
+
+#projects ol {
+    display: flex;
+}
+
+ol li .project-container {
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 1em;
+    height: 25vw;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+ol li .project-container:hover {
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 1em;
+    height: 25vw;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+ol li .project-image {
+    width: 21vw;
+    height: 192px;
+    background-color: #F0F0F0;
+    text-align: center;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.project-title {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 700;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1em;
+}
+
+.project-detail {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 1.2em;
+}
+
+.project-more {
+    border: 1px solid #000;
+    border-radius: 3em;
+    width: 17vh;
+    height: 5vh;
+}
+
+.project-more img {
+    height: 1vh;
+    position: relative;
+    left: 1em;
+}
