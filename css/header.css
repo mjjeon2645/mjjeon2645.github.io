@@ -1,0 +1,59 @@
+header div {
+    border-bottom: 1px solid #000;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 13.3rem;
+    padding-left: 13.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 74px;
+}
+
+header h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+header nav {
+    width: 50%;
+}
+
+header .menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menus li a:not(.contact a) {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+header .menus li a:not(.contact a):active {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #2FBBA0;
+}
+
+header .contact {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    padding-inline: 20px;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+.contact a {
+    color: white;
+}
+
+header .contact a:hover {
+    color: #000;
+}
+
+header .contact:hover {
+    background-color: #FFF;
+    border: 1px solid #000;
+}
