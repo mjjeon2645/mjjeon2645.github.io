@@ -11,16 +11,16 @@
 
 .experience-title h2 {
     font-size: 2em;
-    display: inline-block;
     font-family: 'Lato', sans-serif; 
     font-weight: 700;
+    display: inline-block;
 }
 
 .experience-title span {
+    font-size: .8em;
     padding-left: .5em;
     color: #666666;
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-size: .8em;
 }
 
 .row {
@@ -30,8 +30,8 @@
 }
 
 .row .title {
-    display: inline-block;
     font-weight: bold;
+    display: inline-block;
     padding-left: 1vh;
     width: 20vh;
 }

@@ -1,12 +1,26 @@
 #retrospect {
+    height: 50vw;
     padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.dark-section {
+    position: absolute;
     background-color: #323232;
+    width: 1920px;
+    height: 60em;
+    padding-top: 7em;
+    padding-bottom: 25vh;
+    left: 0em;
+    top: 130em;
+    z-index: -1;
 }
 
 #retrospect > div {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    padding-bottom: 1.5em;
 }
 
 #retrospect h2 {
@@ -38,4 +52,38 @@
     font-weight: 300;
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     padding-left: 2em;
+}
+
+.retrospects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .5vw;
+}
+
+.retrospects li {
+    color: #D9D9D9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 16vw;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.retrospects li:hover {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    width: 16vw;
+    height: 16vw;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #000000B2;
+    border-radius: 20px;
 }
