@@ -23,26 +23,26 @@
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 }
 
-.row {
+#experiences ul {
    height: 5.5vh;
    border-bottom: 1px dashed #DDDDDD;
    padding-top: 2.2vh;
 }
 
-.row .title {
+#experiences ul .title {
     font-weight: bold;
     display: inline-block;
     padding-left: 1vh;
     width: 15vw;
 }
 
-.row .detail {
+#experiences ul .detail {
     display: inline-block;
     color: #666666;
     width: 42vw;
 }
 
-.row .period {
+#experiences ul .period {
     display: inline-block;
     color: #666666;
 }

@@ -58,15 +58,16 @@
     border-bottom: 1px solid #DDDDDD;
 }
 
-.tags span {
+.tags li {
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     font-weight: 300;
     font-style: normal;
+    display: inline-block;
     padding: .5em 1em;
     margin-right: 1em;
 }
 
-.tags span:not(:nth-child(2)) {
+.tags li:not(:nth-child(2)) {
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     font-weight: 400;
     background-color: #E8F9F5;
@@ -74,7 +75,7 @@
     border-radius: 3em;
 }
 
-.tags span:nth-child(2) {
+.tags li:nth-child(2) {
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     font-weight: 400;
     background-color: #FFF6F4;
