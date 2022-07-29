@@ -97,3 +97,19 @@
 .contacts a {
     color: #666666;
 }
+
+@media (max-width: 1024px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10em;
+    }
+
+    .detail div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

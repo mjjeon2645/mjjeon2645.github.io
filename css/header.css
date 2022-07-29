@@ -1,27 +1,31 @@
 header {
+    position: fixed;
     display: flex;
-    border-bottom: 1px solid #000;
-    height: 4vw;
-}
-
-header div {
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-inline: calc((100% - 1280px) / 2);
+    height: 4vw;
+    width: 100%;
+    background-color: #FFF;
+    z-index: 100;
 }
 
 header h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+    border-bottom: 1px solid #DDD;
 }
 
 header nav {
     width: 50%;
 }
 
-header .menus {
+header ul {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 header .menus li a:not(.contact a) {
@@ -61,4 +65,38 @@ header .contact a:hover {
 header .contact:hover {
     background-color: #FFF;
     border: 1px solid #000;
+}
+
+@media (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        height: 15vw;
+        border-bottom: #DDDDDD solid 1px;
+    }
+    
+    header h1 {
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+        width: 100%;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3vw;
+    }
+
+    header li:hover {
+        border-bottom: 1px solid #000;
+    }
+    
+    header li:last-child {
+        position: absolute;
+        top: 1vw;
+        right: 3vw;
+    }
+    
 }

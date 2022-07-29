@@ -7,3 +7,15 @@ article, aside, #sns, header div {
     width: 66.7%;
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    body {
+    max-width: 1024px;
+    min-width: 375px;
+    }
+
+    article, aside, #sns, header div {
+        width: 100%;
+    }
+
+}
