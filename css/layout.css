@@ -3,7 +3,7 @@ body {
     min-width: 1280px;
 }
 
-article, aside, #sns, footer, header div {
+article, aside, #sns, header div {
     width: 66.7%;
     margin: 0 auto;
 }
