@@ -1,3 +1,9 @@
+#experiences {
+    min-height: 40em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+
 .experience-title {
     border-bottom: 1px solid #000000;
     padding-bottom: 2em;

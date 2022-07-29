@@ -1,5 +1,5 @@
 #projects {
-    height: 75vh;
+    height: 50em;
     display: flex;
     flex-direction: column;
 }
@@ -13,16 +13,17 @@
 
 .gray-section {
     background-color: #F8F8F8;
-    padding-top: 13vh;
+    padding-top: 7em;
     padding-bottom: 25vh;
     width: 1920px;
     position: absolute;
     left: 0em;
+    top: 40em;
     z-index: -1;
 }
 
 .projects-titles {
-    padding-top: 7vh;
+    padding-top: 15em;
     padding-bottom: 3vh;
 }
 

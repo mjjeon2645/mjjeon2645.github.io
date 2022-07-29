@@ -1,0 +1,41 @@
+#retrospect {
+    padding-top: 8em;
+    background-color: #323232;
+}
+
+#retrospect > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#retrospect h2 {
+    color: #FFFFFF;
+    font-size: 2em;
+    display: inline-block;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+}
+
+#retrospect .title span {
+    padding-left: .5em;
+    color: #FFFFFF;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: .8em;
+    font-weight: 300;
+}
+
+#retrospect .category a:first-child {
+    color: #FFFFFF;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-left: 2em;
+}
+
+#retrospect .category a:not(a:first-child) {
+    color: #DADADA;
+    font-weight: 300;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    padding-left: 2em;
+}
