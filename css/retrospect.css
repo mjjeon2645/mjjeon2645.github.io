@@ -1,5 +1,5 @@
 #retrospect {
-    height: 50vw;
+    height: 55vw;
     padding-top: 8em;
     padding-bottom: 8em;
 }
@@ -9,10 +9,10 @@
     background-color: #323232;
     width: 1920px;
     height: 60em;
-    padding-top: 7em;
-    padding-bottom: 25vh;
+    /* padding-top: 7em; */
+    /* padding-bottom: 25em; */
     left: 0em;
-    top: 130em;
+    top: 133em;
     z-index: -1;
 }
 

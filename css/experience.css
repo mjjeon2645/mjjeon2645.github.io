@@ -1,7 +1,7 @@
 #experiences {
     min-height: 40em;
-    padding-top: 10em;
-    padding-bottom: 5em;
+    padding-top: 13em;
+    padding-bottom: 7em;
 }
 
 .experience-title {
@@ -33,13 +33,13 @@
     font-weight: bold;
     display: inline-block;
     padding-left: 1vh;
-    width: 20vh;
+    width: 15vw;
 }
 
 .row .detail {
     display: inline-block;
     color: #666666;
-    width: 45vh;
+    width: 42vw;
 }
 
 .row .period {

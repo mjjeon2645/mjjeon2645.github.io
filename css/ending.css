@@ -1,0 +1,38 @@
+ #ending {
+    padding-top: 5em;
+ }
+ 
+ #ending div {
+    height: 10vw;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #DDDDDD;
+    padding-left: 3em;
+}
+
+#ending h2 {
+    font-size: 1.5em;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    line-height: 2em;
+    padding-top: 2em;
+}
+
+#ending div p {
+    font-size: .9em;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    color: #666666;
+}
+
+#ending a {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    left: 85%;
+    top: -20%;
+    padding-inline: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #000;
+    border-radius: 30px;
+}

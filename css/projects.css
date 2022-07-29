@@ -5,33 +5,33 @@
 }
 
 #projects h2 {
-    display: inline-block;
-    font-family: 'Lato', sans-serif; 
-    font-weight: 700;
     font-size: 2em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif; 
+    display: inline-block;
 }
 
 .gray-section {
     background-color: #F8F8F8;
-    padding-top: 7em;
-    padding-bottom: 25vh;
+    padding-top: 7vw;
+    padding-bottom: 15vw;
     width: 1920px;
     position: absolute;
     left: 0em;
-    top: 40em;
+    top: 45em;
     z-index: -1;
 }
 
 .projects-titles {
-    padding-top: 15em;
+    padding-top: 12em;
     padding-bottom: 3vh;
 }
 
 #projects .projects-titles span {
-    padding-left: .5em;
-    color: #666666;
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     font-size: .8em;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    color: #666666;
+    padding-left: .5em;
 }
 
 #projects ol {
