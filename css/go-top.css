@@ -4,7 +4,7 @@
     height: 60px;
     text-indent: -10000px;
     overflow: hidden;
-    background: url(/images/top-black.png) no-repeat 0 50%;
+    background: url(./images/top-black.png) no-repeat 0 50%;
     background-size: contain;
     position: fixed;
     bottom: 10%;
@@ -12,7 +12,7 @@
 }
 
 .gotop:hover {
-    background: url(/images/top-white.png) no-repeat 0 50%;
+    background: url(./images/top-white.png) no-repeat 0 50%;
     background-size: contain;
     position: fixed;
 }
