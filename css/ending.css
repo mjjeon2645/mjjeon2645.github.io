@@ -3,10 +3,10 @@
  }
  
  #ending div {
-    height: 10vw;
     border-top: 2px solid #000;
     border-bottom: 1px solid #DDDDDD;
     padding-left: 3em;
+    padding-bottom: 3em;
 }
 
 #ending h2 {
@@ -29,7 +29,6 @@
     font-style: normal;
     position: relative;
     left: 85%;
-    top: -20%;
     padding-inline: 25px;
     padding-top: 8px;
     padding-bottom: 8px;
