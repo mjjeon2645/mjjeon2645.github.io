@@ -9,6 +9,7 @@
     font-size: 2em;
     font-family: 'Lato', sans-serif;
     display: inline-block;
+    margin-bottom: 1.3em;
 }
 
 #projects .title p {
@@ -58,23 +59,40 @@
     font-size: 1.2em;
     color: #000;
     font-weight: 700;
-    padding-top: 1.5em;
+    padding-top: 2em;
 }
 
 #projects .content dd {
     font-size: 1.1em;
+    padding-top: 1.4em;
 }
 
 #projects .go-site {
+    position: relative;
+    left: 27%;
+    top: 5%;
     font-size: 0.9em;
     width: fit-content;
-    padding: .8em 2.6em;
+    padding: 1em 3em;
     border-radius: 4em;
+    color: black;
+    border: 1px solid #666;
+    margin: 1.5em;
+}
+
+#projects .go-site .icon {
+    position: absolute;
+    right: 10%;
+    width: 1em;
+    height: 1em;
+    background: url(/images/chevron-right.png) no-repeat 50%;
+    background-size: contain;
 }
 
 @media (max-width: 1024px) {
     #projects {
         padding: 24vw 4vw;
+        height: 250vw;
     }
 
     #projects .title h3 {
@@ -91,7 +109,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5vw;
+        gap: 3vw;
     }
 
     #projects .card {
@@ -102,7 +120,6 @@
     #projects .content dt {
         font-size: 5vw;
         font-weight: 700;
-        margin-bottom: 3vw;
     }
 
     #projects .content dt, .content dd {
@@ -120,7 +137,7 @@
         position: relative;
         color: black;
         border: 1px solid #666;
-        margin: 6vw 5vw 5vw 5vw;
+        margin: 1vw 4vw 1vw 0vw;
     }
 
     #projects .go-site .icon {
@@ -132,5 +149,4 @@
         background: url(/images/chevron-right.png) no-repeat 50%;
         background-size: contain;
     }
-
 }

@@ -15,7 +15,6 @@ header {
 header h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    border-bottom: 1px solid #DDD;
 }
 
 header nav {
@@ -98,5 +97,4 @@ header .contact:hover {
         top: 1vw;
         right: 3vw;
     }
-    
 }

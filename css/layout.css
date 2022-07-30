@@ -3,7 +3,7 @@ body {
     min-width: 1280px;
 }
 
-article:not(#projects), aside, #sns, header div {
+article:not(#projects), aside, #sns, header {
     width: 66.7%;
     margin: 0 auto;
 }
@@ -14,7 +14,7 @@ article:not(#projects), aside, #sns, header div {
     min-width: 375px;
     }
 
-    article, aside, #sns, header div {
+    article, aside, #sns, header {
         width: 100%;
     }
 
