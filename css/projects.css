@@ -1,108 +1,136 @@
 #projects {
-    height: 50em;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 20em;
+    padding: 8em calc((100% - 1280px) / 2);
+    height: 26em;
+    background-color: #F8F8F8;
 }
 
-#projects h2 {
+#projects .title h3 {
     font-size: 2em;
-    font-weight: 700;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     display: inline-block;
 }
 
-.gray-section {
-    background-color: #F8F8F8;
-    padding-top: 7vw;
-    padding-bottom: 15vw;
-    width: 1920px;
-    position: absolute;
-    left: 0em;
-    top: 45em;
-    z-index: -1;
+#projects .title p {
+    display: inline-block;
+    font-size: 1.1em;
 }
 
-.projects-titles {
-    padding-top: 12em;
-    padding-bottom: 3vh;
-}
-
-#projects .projects-titles span {
-    font-size: .8em;
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    color: #666666;
-    padding-left: .5em;
-}
-
-#projects ol {
+#projects ul {
     display: flex;
+    flex-direction: row;
+    gap: 0.9em;
 }
 
-ol li .project-container {
-    padding-left: .5em;
-    padding-right: .5em;
-    border-radius: 1em;
-    height: 28vw;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
-}
-
-ol li .project-container:hover {
-    height: 28vw;
-    padding-left: .5em;
-    padding-right: .5em;
-    border-radius: 1em;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-ol li .project-image {
-    width: 21vw;
-    height: 192px;
-    background-color: #F0F0F0;
-    text-align: center;
-    border-top-right-radius: .5em;
-    border-top-left-radius: .5em;
-}
-
-.project-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#projects .card {
+    width: 24em;
+    height: 26em;
+    border-radius: 1.5em;
+    box-shadow: 0 0.6em 1.3em rgba(0, 0, 0, 0.05);
+    overflow: hidden;
     background-color: white;
 }
 
-.project-title {
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+#projects .card:hover {
+    transform: translate3d(0, -1em, 0);
+    box-shadow: 0 0.6em 1.3em rgba(0, 0, 0, 0.25);
+}
+
+#projects .thumbnail {
+    height: 45%;
+    overflow: hidden;
+
+}
+
+#projects .thumbnail img {
+    left: 0;
+    width: 100%;
+    transform: translate3d(0, -50%, 0);
+}
+
+#projects .card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects .content dt {
+    font-size: 1.2em;
+    color: #000;
     font-weight: 700;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    font-size: 1em;
+    padding-top: 1.5em;
 }
 
-.project-detail {
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
-    font-weight: 400;
-    font-style: normal;
-    color: #666666;
-    font-size: 1em;
-    text-align: center;
-    line-height: 1.5em;
-    padding-bottom: 1.2em;
+#projects .content dd {
+    font-size: 1.1em;
 }
 
-.project-more {
-    border: 1px solid #000;
-    border-radius: 3em;
-    width: 17vh;
-    height: 5vh;
-}
-
-.project-more img {
-    height: 1vh;
-    position: relative;
-    left: 1em;
+#projects .go-site {
+    font-size: 0.9em;
+    width: fit-content;
+    padding: .8em 2.6em;
+    border-radius: 4em;
 }
 
 @media (max-width: 1024px) {
-    
+    #projects {
+        padding: 24vw 4vw;
+    }
+
+    #projects .title h3 {
+        display: block;
+        padding-bottom: 3vw;
+    }
+
+    #projects .title p {
+        display: block;
+        margin-bottom: 3vw;
+    }
+
+    #projects ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    #projects .card {
+        width: 80%;
+        height: 80vw;
+    }
+
+    #projects .content dt {
+        font-size: 5vw;
+        font-weight: 700;
+        margin-bottom: 3vw;
+    }
+
+    #projects .content dt, .content dd {
+        align-self: flex-start;
+        padding-left: 5vw;
+    }
+
+    #projects .content dd {
+        font-size: 3vw;
+        color: #666;
+    }
+
+    #projects .go-site {
+        font-size: 3.7vw;
+        position: relative;
+        color: black;
+        border: 1px solid #666;
+        margin: 6vw 5vw 5vw 5vw;
+    }
+
+    #projects .go-site .icon {
+        position: absolute;
+        top: 35%;
+        left: 80%;
+        width: 3.3vw;
+        height: 3.3vw;
+        background: url(/images/chevron-right.png) no-repeat 50%;
+        background-size: contain;
+    }
+
 }
