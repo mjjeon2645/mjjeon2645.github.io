@@ -15,21 +15,21 @@
 }
 
 #sns .facebook {
-    background: url(/images/facebook.png) no-repeat 0 50%;
+    background: url(./images/facebook.png) no-repeat 0 50%;
     background-size: contain;
 }
 
 #sns .instagram {
-    background: url(/images/instargram.png) no-repeat 0 50%;
+    background: url(./images/instargram.png) no-repeat 0 50%;
     background-size: contain;
 }
 
 #sns .twitter {
-    background: url(/images/twitter.png) no-repeat 0 50%;
+    background: url(./images/twitter.png) no-repeat 0 50%;
     background-size: contain;
 }
 
 #sns .youtube {
-    background: url(/images/youtube.png) no-repeat 0 50%;
+    background: url(./images/youtube.png) no-repeat 0 50%;
     background-size: contain;
 }
