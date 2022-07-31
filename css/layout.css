@@ -17,5 +17,4 @@ article:not(#projects, #retrospect), aside, #sns, header {
     article, aside, #sns, header {
         width: 100%;
     }
-
 }

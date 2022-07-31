@@ -35,3 +35,9 @@
     background-color: #000;
     border-radius: 30px;
 }
+
+#ending a:hover {
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+}

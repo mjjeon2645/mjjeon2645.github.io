@@ -46,7 +46,7 @@
 #projects .thumbnail img {
     left: 0;
     width: 100%;
-    transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -20%, 0);
 }
 
 #projects .card .content {
