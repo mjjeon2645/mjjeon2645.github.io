@@ -85,7 +85,7 @@
     right: 10%;
     width: 1em;
     height: 1em;
-    background: url(./images/chevron-right.png) no-repeat 50%;
+    background: url(../images/chevron-right.png) no-repeat 50%;
     background-size: contain;
 }
 
