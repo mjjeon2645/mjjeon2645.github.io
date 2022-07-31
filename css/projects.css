@@ -1,0 +1,152 @@
+#projects {
+    margin-bottom: 20em;
+    padding: 8em calc((100% - 1280px) / 2);
+    height: 26em;
+    background-color: #F8F8F8;
+}
+
+#projects .title h3 {
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-bottom: 1.3em;
+}
+
+#projects .title p {
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+#projects ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9em;
+}
+
+#projects .card {
+    width: 24em;
+    height: 26em;
+    border-radius: 1.5em;
+    box-shadow: 0 0.6em 1.3em rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    background-color: white;
+}
+
+#projects .card:hover {
+    transform: translate3d(0, -1em, 0);
+    box-shadow: 0 0.6em 1.3em rgba(0, 0, 0, 0.25);
+}
+
+#projects .thumbnail {
+    height: 45%;
+    overflow: hidden;
+
+}
+
+#projects .thumbnail img {
+    left: 0;
+    width: 100%;
+    transform: translate3d(0, -50%, 0);
+}
+
+#projects .card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects .content dt {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 700;
+    padding-top: 2em;
+}
+
+#projects .content dd {
+    font-size: 1.1em;
+    padding-top: 1.4em;
+}
+
+#projects .go-site {
+    position: relative;
+    left: 27%;
+    top: 5%;
+    font-size: 0.9em;
+    width: fit-content;
+    padding: 1em 3em;
+    border-radius: 4em;
+    color: black;
+    border: 1px solid #666;
+    margin: 1.5em;
+}
+
+#projects .go-site .icon {
+    position: absolute;
+    right: 10%;
+    width: 1em;
+    height: 1em;
+    background: url(./images/chevron-right.png) no-repeat 50%;
+    background-size: contain;
+}
+
+@media (max-width: 1024px) {
+    #projects {
+        padding: 24vw 4vw;
+        height: 250vw;
+    }
+
+    #projects .title h3 {
+        display: block;
+        padding-bottom: 3vw;
+    }
+
+    #projects .title p {
+        display: block;
+        margin-bottom: 3vw;
+    }
+
+    #projects ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+
+    #projects .card {
+        width: 80%;
+        height: 80vw;
+    }
+
+    #projects .content dt {
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    #projects .content dt, .content dd {
+        align-self: flex-start;
+        padding-left: 5vw;
+    }
+
+    #projects .content dd {
+        font-size: 3vw;
+        color: #666;
+    }
+
+    #projects .go-site {
+        font-size: 3.7vw;
+        position: relative;
+        color: black;
+        border: 1px solid #666;
+        margin: 1vw 4vw 1vw 0vw;
+    }
+
+    #projects .go-site .icon {
+        position: absolute;
+        top: 35%;
+        left: 80%;
+        width: 3.3vw;
+        height: 3.3vw;
+        background: url(./images/chevron-right.png) no-repeat 50%;
+        background-size: contain;
+    }
+}

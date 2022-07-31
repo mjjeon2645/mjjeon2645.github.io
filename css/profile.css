@@ -1,0 +1,140 @@
+#introduce {
+    display: grid;
+    grid-template:
+    "photo about about about about"
+    "photo contact contact contact contact";
+    padding-top: 11em;
+    padding-bottom: 11.5em;
+}
+
+#introduce .about {
+    grid-area: about;
+}
+
+#introduce .photo {
+    position: relative;
+    grid-area: photo;
+    width: 17em;
+    height: 17em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2em;
+}
+
+#introduce .photo img {
+    position: absolute;
+    left: 50%;
+    transform: translate3d(-40%, -20%, 0)
+}
+
+#introduce .about h2 {
+    font-size: 1em;
+    text-align: start;
+}
+
+#introduce .about h2 strong {
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+#introduce .about p {
+    line-height: 2em;
+}
+
+#introduce .about .tags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 2.3em;
+    border-bottom: 1px solid #DDD;
+}
+
+#introduce .about .tags li {
+    font-size: 1em;
+    padding: 0.7em 1.3em;
+    border-radius: 3em;
+    background-color: #E8F9F5;
+    color: #2FBBA0;
+}
+
+#introduce .address {
+    grid-area: contact;
+    font-style: normal;
+} 
+
+#introduce .address ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#introduce .address li {
+    padding: 1em;
+    
+}
+
+#introduce address dt, dd {
+    color: #666;
+    display: inline-block;
+}
+
+#introduce address dt {
+    width: 5em;
+    font-weight: 700;
+}
+
+#introduce address dd {
+    width: 20em;
+}
+
+@media (max-width: 1024px) {
+    #introduce{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #introduce .photo {
+        position: relative;
+        margin: 3vw auto;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    #introduce .photo img {
+        position: absolute;
+        transform: translate3d(-41%, -15%, 0);
+    }
+
+    #introduce h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #introduce h2 strong {
+        padding-left: .7em;
+        padding-bottom: .3em;
+    }
+
+    #introduce .about p {
+        text-align: center;
+    }
+
+    #introduce .about .tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom: #DDDDDD 1px solid;
+    }
+
+    #introduce .address {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5vw;
+    }
+}

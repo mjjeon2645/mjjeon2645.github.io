@@ -1,0 +1,21 @@
+body {
+    max-width: 1920px;
+    min-width: 1280px;
+}
+
+article:not(#projects, #retrospect), aside, #sns, header {
+    width: 66.7%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    body {
+    max-width: 1024px;
+    min-width: 375px;
+    }
+
+    article, aside, #sns, header {
+        width: 100%;
+    }
+
+}

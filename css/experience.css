@@ -1,0 +1,85 @@
+#experience .title {
+    border-bottom: 2px solid #000;   
+    padding-bottom: 1.3em; 
+}
+
+#experience .title h3 {
+    font-size: 2em;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+    display: inline-block;
+}
+
+#experience .title p {
+    font-size: .8em;
+    display: inline-block;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    color: #666666;
+    padding-left: 1em;
+}
+
+#experience li {
+    display: flex;
+    height: 5.3em;
+    border-bottom: 1px dashed #DDD;
+}
+
+#experience li p {
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+#experience li p:first-child {
+    font-weight: 700;
+}
+
+#experience .institution {
+    width: 20%;
+}
+
+#experience .course {
+    width: 60%;
+}
+
+@media (max-width: 1024px) {
+    #experience {
+        padding: 24vw 4vw;
+    }
+
+    #experience .title h3 {
+        display: block;
+        margin-bottom: 3vw;
+    }
+
+    #experience .title p {
+        padding: 0;
+    }
+
+    #experience li {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        grid-template-areas:
+            "institution course"
+            "institution period";
+    }
+
+    #experience .institution {
+        grid-area: institution;
+        width: 100%;
+    }
+
+    #experience .course {
+        grid-area: course;
+        font-size: 2vw;
+        color: #666;
+        width: 100%;
+    }
+
+    #experience .period {
+        grid-area: period;
+        font-size: 2vw;
+        color: #666;
+        width: 100%;
+    }
+}
